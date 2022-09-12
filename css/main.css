@@ -1,0 +1,78 @@
+* {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+}
+.page-info {
+    display:flex;
+    min-height: 650px;
+    justify-content: space-around;
+}
+.page-info img {
+    display: block;
+    margin: 0 auto;
+    
+}
+.flex-left
+{
+    flex-basis: 25%;
+    background: linear-gradient(180deg, #705DE8 0%, rgba(31, 34, 114, 0.996164) 60.42%, rgba(50, 19, 65, 0.984335) 99.99%);
+}
+.flex-right
+{
+    padding-top: 80px;
+    flex-basis: 75%;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    letter-spacing: 0.245em;
+}
+.flex-right h1 {
+    font-size: 78px;
+    margin-bottom: 100px;
+    text-align: center;
+    letter-spacing: 0.200em;
+}
+.person-main h1 {
+    font-size: 47px;
+    font-weight: 600;
+    margin-top: 50px;
+    text-align: center;
+}
+.person-main h3 {
+    color: #37A5F4;
+    font-size: 38px;
+    margin-top: 35px;
+    text-align: center;
+    letter-spacing: 0.245em;
+    font-weight: 800;
+}
+.person-main h2 {
+    font-size: 36px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.left-infoblock
+{
+    margin-top: 70px;
+    text-align: center;
+
+}
+.left-infoblock>ul,li {
+    margin-top: 25px;
+    font-size: 27px;
+}
+.left-infoblock>ul,span {
+    font-size:22px;
+}
+.flex-block
+{
+    display: block;
+    max-width: 700px;
+    background: linear-gradient(180deg, #706565 0%, rgba(36, 1, 1, 0.87) 100%);
+    border-radius: 35px;
+    margin: 0 auto;
+    padding: 30px;
+}
